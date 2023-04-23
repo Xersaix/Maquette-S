@@ -1,0 +1,330 @@
+body {
+
+    margin: 0%;
+
+}
+
+
+
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    background-color: #271231;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 10%;
+    display: flex;
+    font-weight: 100;
+    font-family: "Inter";
+    font-size: 30px;
+    width: 50%;
+    color: white
+}
+
+header .logo .logo-text {
+    font-weight: bold;
+    font-size: 31px;
+    color: #F55178;
+}
+
+header nav {
+
+    width: 50%
+}
+
+header nav a {
+
+    font-family: "Inter";
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+header nav a:hover {
+
+    font-weight: bolder;
+    color: #F55178;
+}
+
+.exposure {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 695px;
+    width: 100%;
+    background-color: #3A184A;
+    color: white;
+
+}
+
+.exposure p {
+    font-size: 12px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.exposure h2 {
+    margin: 0%;
+    font-family: "Inter";
+    font-size: 48px;
+}
+
+.exposure span {
+
+    font-weight: bolder;
+    color: #F55178;
+}
+
+.exposure h4 {
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 100;
+}
+
+.exposure button {
+
+    width: 257px;
+    height: 58px;
+    border-radius: 67px;
+    border-style: none;
+    background-color: #F55178;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.exposure div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intouchlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
+.intouchlist div {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 228px;
+    background-image: url('montre.jpg');
+    background-position-x: 45%;
+    background-size: 200%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.intouchlist div p {
+    background-color: #3A184A;
+}
+
+
+.detail {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 805px;
+}
+
+.leftpart {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 805px;
+}
+
+.one {
+    background-image: url("phone.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    width: 49%;
+    height: 49%;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 49%;
+    background-color: #F3F3F3;
+
+}
+
+.two h1 {
+    font-size: 64px;
+    font-family: "Inter";
+    font-weight: bold;
+    color: #3A184A;
+    margin: 0%;
+}
+
+.two p {
+
+    color: #3A184A;
+    font-family: "Inter";
+    margin: 0%;
+}
+
+.rightpart {
+
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 805px;
+
+
+}
+
+
+.textpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 805px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.448);
+    color: black;
+
+}
+
+.textpart-right {
+    background-image: url("coffee.jpg");
+    background-position-x: 70%;
+    background-position-y: 0%;
+    background-size: 320%;
+    width: 30%;
+    height: 100%;
+    opacity: 18%;
+
+}
+
+.textpart h1 {
+    font-family: "Inter";
+    font-size: 64px;
+    color: #3A184A;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+.textpart p {
+    color: #3A184A;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+.button-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.button-center button {
+
+    width: 149px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+
+}
+
+.left {
+
+    background-color: #3A184A;
+}
+
+.right {
+
+    background-color: #F55178;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.5%;
+    width: 100%;
+    height: 300px;
+    background-color: #3A184A;
+}
+
+footer .contact {
+    height: 300px;
+    width: 297px;
+    background-color: #271231;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    padding: 0%;
+
+}
+
+footer h2 {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contact{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact p
+{
+
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
